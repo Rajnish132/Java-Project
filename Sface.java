@@ -62,35 +62,35 @@ public class Sface  extends Applet implements ActionListener,Runnable
 	{
 		if(ae.getSource()==b1)
 		{
-			y = y - 5;
+			y = y - 10;
 
 		}
 
 		if(ae.getSource()==b2)
 		{
-			y = y + 5;
+			y = y + 10;
 
 		}
 
 		if(ae.getSource()==b3)
 		{
-			x = x - 5;
+			x = x - 10;
 		}
 
 		if(ae.getSource()==b4)
 		{
-			x = x + 5;
+			x = x + 10;
 		}
 	}
 
 		public void paint(Graphics g)
 	    {
 	    	g.setColor(Color.YELLOW);
-	        g.fillOval(x, y, 120, 120);
+	        g.fillOval(x, y, 170, 170);
 	        g.setColor(Color.BLACK);
-	        g.fillOval(x+30, y+40, 12, 17);
-	        g.fillOval(x+80, y+40, 12, 17);
-	        g.fillOval(x+50,y+70,20,30);
+	        g.fillOval(x+40, y+45, 15, 25);
+	        g.fillOval(x+115, y+45, 15, 25);
+	        g.fillOval(x+70,y+95,30,42);
 	    }
     
 }
